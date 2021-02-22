@@ -6,17 +6,17 @@ print(type(n))
 
 # In the first expression, 14 // 3 evaluates to 4 because 3 goes into 14 four times. 
 # In the second expression, 14 % 3 evaluates to 2 because 2 is the remainder when 14 is divided by 3.
->>> 14 // 3 
+14 // 3 
 4
->>> 14 % 3
+14 % 3
 2
 
 # Algebraic expressions for absolute values.
->>> abs(-4)
+abs(-4)
 4
->>> abs(4)
+abs(4)
 4
->>> abs(-4.3)
+abs(-4.3)
 4.3
 
 # This for loop with print the highest number from the list of numbers.
