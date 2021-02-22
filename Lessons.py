@@ -43,8 +43,8 @@ False
 True
 
 # (c) The sum of 3 squared and 4 squared is equal to 25.
-2 ** 3 + 4 == 25
-False
+3**2 + 4**2 == 25
+True
 
 # (d) The sum of 2, 4, and 6 is greater than 12.
 2 + 4 + 6 > 12
