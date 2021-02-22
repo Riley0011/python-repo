@@ -1,5 +1,8 @@
 # variable = value
 
+# The statement x = 4 is called an assignment statement. The general format of an assignment statement is:
+<variable> = <expression>
+
 # This is an example we assigned a value to variable n. We then used print to print the type of value that n is. In this case the integer 3.
 n = 3
 print(type(n))
