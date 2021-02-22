@@ -61,3 +61,20 @@ False
 # (g) The lowest price among $34.99, $29.95, and $31.50 is less than $30.00.
 min(34.99, 29.95, 31.50) < 30.00
 True
+
+
+
+# Write Python statements that correspond to the below actions and execute them:
+
+# (a) Assign integer value 3 to variable a.
+a = 3
+a
+3
+# (b) Assign 4 to variable b.
+b = 4
+b
+4
+# (c) Assign to variable c the value of expression a * a + b * b.
+c = a * a + b * b
+c
+25
