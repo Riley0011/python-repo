@@ -11,6 +11,14 @@ print(type(n))
 >>> 14 % 3
 2
 
+# Algebraic expressions for absolute values.
+>>> abs(-4)
+4
+>>> abs(4)
+4
+>>> abs(-4.3)
+4.3
+
 # This for loop with print the highest number from the list of numbers.
 numbers = [3, 6, 2, 8, 4, 10]
 max = numbers[0]
