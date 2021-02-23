@@ -78,3 +78,35 @@ b
 c = a * a + b * b
 c
 25
+
+
+
+#Start by executing the assignment statements:
+s1 = 'ant'
+s2 = 'bat'
+s3 = 'cod'
+# Write Python expressions using s1, s2, and s3 and operators + and * that evaluate to:
+# (a) 'ant bat cod'
+s1 + ' ' + s2 + ' ' + s3
+'ant bat cod'
+# (b) 'ant ant ant ant ant ant ant ant ant ant '
+(s1 + ' ') * 10
+'ant ant ant ant ant ant ant ant ant ant '
+# (c) 'ant bat bat cod cod cod'
+(s1 + ' ') + ((s2 + ' ') * 2) + ((s3 + ' ') *3)
+'ant bat bat cod cod cod '
+or
+s1 + ' ' + 2 * (s2 + ' ') + 2 * (s3 + ' ') + s3
+'ant bat bat cod cod cod'
+# (d) 'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
+((s1 + ' ') + (s2 + ' ')) * 7
+'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
+or
+7 * (s1 + ' ' + s2 + ' ' )
+'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
+# (e) 'batbatcod batbatcod batbatcod batbatcod batbatcod '
+((s2 * 2) + (s3 + ' ')) * 5
+'batbatcod batbatcod batbatcod batbatcod batbatcod '
+or
+5 * (2 * s2 + s3 + ' ')
+'batbatcod batbatcod batbatcod batbatcod batbatcod '
