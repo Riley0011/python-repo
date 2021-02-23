@@ -1,5 +1,4 @@
 # Write Python algebraic expressions corresponding to the following statements:
-
 # (a) The sum of the first 5 positive integers
 1 + 2 + 3 + 4 + 5
 15
@@ -33,7 +32,6 @@ min(34.99, 29.95, 31.50)
 
 
 # Translate the following statements into Python Boolean expressions and evaluate them:
-
 # (a) The sum of 2 and 2 is less than 4.
 2 + 2 < 4
 False
@@ -65,15 +63,16 @@ True
 
 
 # Write Python statements that correspond to the below actions and execute them:
-
 # (a) Assign integer value 3 to variable a.
 a = 3
 a
 3
+
 # (b) Assign 4 to variable b.
 b = 4
 b
 4
+
 # (c) Assign to variable c the value of expression a * a + b * b.
 c = a * a + b * b
 c
@@ -89,24 +88,56 @@ s3 = 'cod'
 # (a) 'ant bat cod'
 s1 + ' ' + s2 + ' ' + s3
 'ant bat cod'
+
 # (b) 'ant ant ant ant ant ant ant ant ant ant '
 (s1 + ' ') * 10
 'ant ant ant ant ant ant ant ant ant ant '
+
 # (c) 'ant bat bat cod cod cod'
 (s1 + ' ') + ((s2 + ' ') * 2) + ((s3 + ' ') *3)
 'ant bat bat cod cod cod '
 or
 s1 + ' ' + 2 * (s2 + ' ') + 2 * (s3 + ' ') + s3
 'ant bat bat cod cod cod'
+
 # (d) 'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
 ((s1 + ' ') + (s2 + ' ')) * 7
 'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
 or
 7 * (s1 + ' ' + s2 + ' ' )
 'ant bat ant bat ant bat ant bat ant bat ant bat ant bat '
+
 # (e) 'batbatcod batbatcod batbatcod batbatcod batbatcod '
 ((s2 * 2) + (s3 + ' ')) * 5
 'batbatcod batbatcod batbatcod batbatcod batbatcod '
 or
 5 * (2 * s2 + s3 + ' ')
 'batbatcod batbatcod batbatcod batbatcod batbatcod '
+
+
+
+# Start by executing the assignment:
+s = '0123456789'
+# Now write expressions using string s and the indexing operator that evaluate to:
+# (a) '0'
+s[0]
+'0'
+
+# (b) '1'
+s[1]
+'1'
+
+# (c) '6'
+s[6]
+'6'
+
+# (d) '8'
+s[8]
+'8'
+
+# (e) '9'
+s[9]
+'9'
+
+
+
