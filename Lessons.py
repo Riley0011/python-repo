@@ -157,16 +157,20 @@ grades = [9, 7, 7, 10, 3, 9, 6, 6, 2]
 # (a) An expression that evaluates to the number of 7 grades
 grades.count(7)
 2
+
 # (b) A statement that changes the last grade to 4
 grades[-1] = 4
 grades
 [9, 7, 7, 10, 3, 9, 6, 4]
+
 # (c) An expression that evaluates to the maximum grade
 max(grades)
 10
+
 # (d) A statement that sorts the list grades
 grades.sort()
 [3, 4, 6, 7, 7, 9, 9, 10]
+
 # (e) An expression that evaluates to the average grade
 sum(grades) / len(grades)
 6.875
