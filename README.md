@@ -1,3 +1,3 @@
 # python-repo
 
-This is repo of various py codes that I find useful.
+This is repo is a a mixture between scripts that I find useful and examples of those scripts in action. Enjoy =)
