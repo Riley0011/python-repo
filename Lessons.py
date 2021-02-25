@@ -195,3 +195,19 @@ sum(grades) / len(grades)
 
 
 
+# What is the type of the object that these expressions evaluate to?
+# (a) False + False
+type(bool(False) + bool(False))
+<class 'int'>
+
+# (b) 2 * 3**2.0
+type(2 * 3**2.0)
+<class 'float'>
+
+# (c) 4 // 2 + 4 % 2
+type(4 // 2 + 4 % 2)
+<class 'int'>
+
+# (d) 2 + 3 == 4 or 5 >= 5
+type(2 + 3 == 4 or 5 >= 5)
+<class 'bool'>
